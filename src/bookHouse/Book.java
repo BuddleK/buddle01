@@ -22,26 +22,13 @@ public class Book {
 				this.pages);
 	}
 
-	
-	
-	
-	
 	// 29라인
 	// Kang 읽는 시간 출력 메소드
 	// page / 30
 	// 32라인
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	void printBookTime() {
+		System.out.printf("도서 %s을(를) 읽으려면, %d시간이 걸립니다.\n", this.title, this.pages / 5);
+	}
+
 } // 47라인
